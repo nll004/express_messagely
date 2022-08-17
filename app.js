@@ -1,6 +1,4 @@
 /** Express app for message.ly. */
-
-
 const express = require("express");
 const cors = require("cors");
 const { authenticateJWT } = require("./middleware/auth");
